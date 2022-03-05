@@ -1,4 +1,4 @@
-FROM mongo:latest
+FROM mongo:5.0.6-focal
 
 RUN apt-get update \
  && apt-get upgrade -y -o Dpkg::Options::="--force-confnew" --no-install-recommends \
